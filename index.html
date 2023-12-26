@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Senha</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+                <h1>Seja bem-vindo</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Crie sua conta:</h2>
+            <p>Registre-se para usar todas as funcionalidades</p>
+            <div class="form-control">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="digite seu nome">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="digite seu e-mail">
+            </div>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="digite sua senha">
+            </div>
+            <p>Precisa de ajuda para ficar seguro? <span id="generate-password">Clique aqui.</span></p>
+            <div class="form-control">
+                <div id="generated-password">
+                    <p>Senha gerada:</p>
+                    <h4></h4>
+                </div>
+                <label for="confirmpassword">Confirmação de senha</label>
+                <input type="text" name="confirmpassword" id="confirmpassword" placeholder="confirme sua senha">
+            </div>
+            <input type="submit" value="cadastrar">
+        </div>
+    </div>
+
+</body>
+
+</html>
