@@ -15,12 +15,6 @@ body {
     -ms-text-combine-horizontal: 100vh;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 html {
     background: rgb(138,49,25);
 }
@@ -31,6 +25,7 @@ input:focus{
 
 #register-container{
     max-width: 900px;
+    min-width: 700px;
     min-height: 80vh;
     margin: 2rem auto;
     display: flex;
@@ -141,13 +136,21 @@ input:focus{
     opacity: 1;
 }
 
-@media (min-width: 360px) and (max-width: 992px){
+@media (min-width: 360px) and (max-width: 480px){
     #register-container{
         display: block;
-        min-width: 40rem;
-        margin-left: 13rem;
+        margin-left: 5%;
         box-shadow: none;
     }
 }
+
+@media (min-width: 481px) and (max-width: 992px){
+    #register-container{
+        display: block;
+        margin-left: 25%;
+        box-shadow: none;
+    }
+}
+
 
 
