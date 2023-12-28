@@ -15,6 +15,12 @@ body {
     -ms-text-combine-horizontal: 100vh;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 html {
     background: rgb(138,49,25);
 }
@@ -139,7 +145,16 @@ input:focus{
     #register-container{
         display: block;
         min-width: 35rem;
-        margin-left: 1rem;
+        margin-left: 13rem;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 480px){
+    #register-container{
+        display: block;
+        min-width: 38rem;
+        margin-left: 15rem;
         box-shadow: none;
     }
 }
