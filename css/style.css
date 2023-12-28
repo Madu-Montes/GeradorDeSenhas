@@ -142,7 +142,7 @@ top: 50%;
 
 left: 50%;
 
-transform: translate(-50%, -50%);
+transform: translate(-25%, -25%);
 }
 
 @media (min-width: 360px) and (max-width: 480px){
