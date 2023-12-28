@@ -144,7 +144,7 @@ input:focus{
 @media (min-width: 360px) and (max-width: 992px){
     #register-container{
         display: block;
-        min-width: 35rem;
+        min-width: 40rem;
         margin-left: 13rem;
         box-shadow: none;
     }
