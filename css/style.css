@@ -145,6 +145,19 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+@media (min-width: 360px) and (max-width: 480px){
+    #register-container{
+        display: block;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px){
+    #register-container{
+        display: block;
+        box-shadow: none;
+    }
+}
 
 
 
