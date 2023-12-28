@@ -135,10 +135,10 @@ input:focus{
     opacity: 1;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 360px) and (max-width: 390px){
     #register-container{
         display: block;
-        width: 50rem;
+        min-width: 35rem;
         margin-left: 1rem;
         box-shadow: none;
     }
