@@ -135,27 +135,19 @@ input:focus{
     opacity: 1;
 }
 
-.aaa{
-    position: absolute;
-
-top: 50%;
-
-left: 50%;
-
-transform: translate(-25%, -50%);
-}
-
-@media (min-width: 360px) and (max-width: 480px){
-    #register-container{
-        display: block;
-        box-shadow: none;
+@media (max-width: 992px){
+    body{
+        overflow-x: hidden;
     }
-}
-
-@media (min-width: 481px) and (max-width: 992px){
+    .box-general{
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    
     #register-container{
         display: block;
         box-shadow: none;
+        width: 170vw;
     }
 }
 
