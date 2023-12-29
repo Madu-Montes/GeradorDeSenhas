@@ -45,8 +45,14 @@ const generatePassword = (getLetterLowerCase, getLetterUpperCase, getNumber, get
     password =  password.slice(0, password.length);
     
     generatePasswordElement.style.display = "block"
-    generatePasswordElement.querySelector("h4").innerText = password;
+    generatePasswordElement.querySelector("button").innerText = password;
 };
+
+function copyToClipboard(){
+    navigator.clipboard.writeText(document.getElementById("output").innerHTML).then(() => {
+        alert('copiado')
+    })
+}
 
 //eventos
 generatePasswordButton.addEventListener("click", () => {

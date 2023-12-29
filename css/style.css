@@ -118,6 +118,15 @@ input:focus{
     margin-bottom: 0.5rem;
 }
 
+button{
+    background-color: #FDFDFD;
+    border: none;
+    width: 200px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 #register-form input[type="submit"] {
     background-color: #8b5e34;
     color: #fff;
@@ -143,7 +152,7 @@ input:focus{
         width: 85%;
         margin-left: 7.5%;
     }
-    
+
     #register-container{
         display: block;
         box-shadow: none;
